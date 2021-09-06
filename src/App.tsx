@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import DATA from './data.json';
 
 import { IApiResponse, IPlace } from './interfaces';
@@ -9,7 +8,7 @@ function App() {
 
   apiResponse.results.map(item => {
     console.log(item, 'item');
-  })
+  });
   return (
     <div className="App">
 
